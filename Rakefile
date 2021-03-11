@@ -27,11 +27,14 @@ namespace :greeting do
     task :seed do
       require_relative './db/seeds.rb'
     end
+    
 
   
   end
 
   desc 'drop into the Pry console'
-task :console => :environment do
-  Pry.start
+    task :console => :environment do
+    Pry.start
 end
+
+  
