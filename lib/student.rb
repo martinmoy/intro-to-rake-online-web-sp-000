@@ -52,4 +52,3 @@ class Student
   end
 
 end
-heloo
